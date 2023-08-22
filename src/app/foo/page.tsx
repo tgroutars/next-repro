@@ -2,12 +2,11 @@
 
 import Link from 'next/link';
 
-export default function Home() {
+export default function TestPage() {
   return (
     <div className="container">
-      HOME
+      FOO PAGE
       <Link href="/bar">BAR</Link>
-      <Link href="/foo">FOO</Link>
     </div>
   );
 }
